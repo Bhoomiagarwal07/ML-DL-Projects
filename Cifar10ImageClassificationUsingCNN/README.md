@@ -49,7 +49,7 @@ share overlapping textures and shapes at CIFAR-10's low 32×32 resolution.
 This project built and trained a Convolutional Neural Network from scratch to classify
 CIFAR-10 images into 10 categories, using a 3-block convolutional architecture with batch
 normalization, dropout, and data augmentation to improve generalization. The model achieved a
-test accuracy of `[fill in]`, with vehicle classes (automobile, ship, truck, airplane)
+test accuracy of `[0.729]`, with vehicle classes (automobile, ship, truck, airplane)
 generally classified more reliably than visually similar animal classes (cat, dog, bird,
 deer), which tend to share overlapping textures and shapes at CIFAR-10's low 32×32 resolution.
 Data augmentation and dropout played an important role in keeping the model from overfitting
@@ -60,7 +60,7 @@ compact CNN trained from scratch, without transfer learning from a larger pre-tr
 (such as ResNet or EfficientNet), will generally underperform state-of-the-art approaches that
 leverage features learned from much larger image datasets.
 
-*(Personalize the exact test accuracy/loss figures above with your own notebook run's output.)*
+
 
 ## 📂 Files
 - `Cifar10ImageClassificationUsingCNN.ipynb` — full notebook with CNN architecture, training, and evaluation
